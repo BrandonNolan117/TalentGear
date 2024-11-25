@@ -5,18 +5,16 @@ import jakarta.persistence.GeneratedValue;
 import jakarta.persistence.GenerationType;
 import jakarta.persistence.Id;
 
-@Entity // Marks it as an entity
+@Entity
 public class Job {
 
-    @Id // Specifies primary key
+    @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long job_id;
     private String title;
     private String description;
     private String location;
     private Double salary;
-
-    // constructors, getters, setters
 
     public Job() {
     }

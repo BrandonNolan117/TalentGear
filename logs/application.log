@@ -8784,3 +8784,4 @@ Unconditional classes:
 2024-11-23T17:42:33.524-05:00 DEBUG 11684 --- [practice-project] [restartedMain] o.s.boot.devtools.restart.Restarter      : Starting application com.brandon.practice.practice_project.PracticeProjectApplication with URLs [file:/C:/Users/brand/Desktop/practice-project/target/classes/]
 2024-11-23T17:42:33.525-05:00 DEBUG 11684 --- [practice-project] [restartedMain] o.s.b.a.ApplicationAvailabilityBean      : Application availability state ReadinessState changed to ACCEPTING_TRAFFIC
 2024-11-23T18:57:39.556-05:00  WARN 11684 --- [practice-project] [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1h7m40s905ms67µs900ns).
+2024-11-23T20:22:22.095-05:00  WARN 11684 --- [practice-project] [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=50m12s50ms318µs600ns).
